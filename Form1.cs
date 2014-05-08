@@ -18,7 +18,16 @@ namespace Git_Ex1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            muestraMensaje();
+        }
+
+        /// <summary>
+        /// Método que muestra un mensaje por pantalla
+        /// </summary>
+        private void muestraMensaje()
+        {
             MessageBox.Show("Saludos desde ¡Hola Mundo!");
         }
+
     }
 }
